@@ -61,20 +61,20 @@
 	<body>
 		<div id="top_top">
 			<div id="left_">
-				<img src="../img/logo_.png" id="img1"/>
+				<h2></h2>
 			</div>
 			<div id="left">
-				<h2>ThesisSelect</h2>
+				<h2>论文选题系统：学生页面</h2>
 			</div>
 			
 			<div id="right">
 				<a href="/thesis-system/Essay/admin/login_1.html" id="logout" target="_top">
-			  	     Logout
+			  	     退出
 			    <img src="../img/Logout1.png" style="width: 30px;"/>
 			  </a>
 			</div>
 			<div id="center">
-				<label class="label_"  style="margin: 0px;">Welcome Student:</label>
+				<label class="label_"  style="margin: 0px;">欢迎学生:</label>
 			    <label class="label_" >【${sessionScope.login_stu.stu_name}】</label>
 			</div>
 		</div>
