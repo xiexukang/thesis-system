@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/out_radius.css">
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+			    background-image: url(../img/backg.jpg);
+			    dotColor: '#E8DFE8',
+	        lineColor: '#133b88'
+			   
+			}
+			.contain{
+				display: flex;
+				flex-direction: column;
+				margin-left: 450px;
+				margin-top: 60px;
+				height: 500px;
+				width: 500px;
+				
+				
+			}
+			#login_in{
+				width: 500px;
+				height: 300px;
+				margin-top: 50px;
+				text-align: center;
+
+			}
+			.log{
+				height: 100px;
+			}
+			.btn-size{
+				padding: 20px 80px;
+				font-size: 40px;
+				letter-spacing: 10px;
+			}
+			#btn_color{
+				color: #5bc0de;
+			}
+			#modal_login{
+				
+			}
+			#myModal{
+				margin-top: 50px;
+			}
+			#myModal1{
+				margin-top: 50px;
+			}
+			.title{
+				margin-top: 60px;
+				text-align: center;
+				font-weight: bold;
+				font-size: 50px;
+				color: white;
+				letter-spacing: 5px;
+			}
+			.statement{
+				margin-top: 50px;
+				text-align: center;
+				font-weight: bold;
+				font-size: xx-small;
+				color: white;
+				letter-spacing: 1px;
+			}
+			.bot{
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 140px;
+				font-size: xx-large;
+				
+			}
+			.foot{
+				text-align: center;
+			}
+
+		</style>
+	</head>
+	<body>
+
+<div class="contain">
+	<div class="log" align="center">
+		
+	</div>
+	<div class="title">
+		毕业论文选题系统
+	</div>
+	<div class="statement">
+		毕业论文选题系统登录界面 <br />
+		ALL THE SUBJECT IS GUIDED BY MR.DADAXIONG<br /><br /><br /> 
+		By : xxx
+	</div>
+	<div id="login_in">
+		<div class="btn btn-primary bot hvr-radial-out" data-toggle="modal" data-target="#myModal">
+			登录
+		</div>
+		<div class="btn btn-primary bot hvr-radial-out" data-toggle="modal" data-target="#myModal1">
+			注册
+		</div>
+	</div>
+	
+	
+</div>
+			
+<form action="/Essay_Student/LoginServlet" method="post" class="form-horizontal">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body" style="background-image: url(../img/star.jpg);">
+      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel" style="color: white;">欢迎登录</h4>
+        <hr />
+      	<div class="form-group form-group-lg">
+      		<label class="control-label col-lg-3" style="color: white;">账号：</label>
+      		<div class="col-lg-8">
+      			<input type="text"class="form-control"  name="account"/>
+      		</div>	
+      	</div>
+      	<div class="form-group form-group-lg">
+			<label class="control-label col-lg-3" style="color: white;">密码：</label>      		
+        	<div class="col-lg-8">
+        		<input type="password"class="form-control" name="pwd"/>
+        	</div>
+      	</div>
+      	  <div class="findwpd" style="text-align: end;margin-right:50px ;"><a href="findpwd.jsp" style="color: lightskyblue;">忘记你的密码了?</a></div>
+      	<div class="form-group form-group-lg" style="padding-left: 170px;">  		
+			<input type="radio" name="user_leixing" id="admin" value="管理员" checked="checked" name="user_admin">
+			<label for="admin" style="color: white;">管理员</label>
+			<input type="radio" name="user_leixing" id="teacher" value="教师" name="user_teacher">
+			<label for="teacher" style="color: white;">教师</label>
+			<input type="radio" name="user_leixing" id="student" value="学生" name="user_student">
+			<label for="student" style="color: white;">学生</label>
+      	</div>
+      	<hr />
+      	<div class="foot">      	
+            <button type="submit" class="btn btn-success btn-lg">登录</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset" class="btn btn-default btn-lg" data-dismiss="modal">取消</button>   
+      	</div>
+ 
+     </div>
+     
+    </div> 
+  </div>
+</div>
+</form>
+<form action="/Essay_Student/registServlet" method="post" class="form-horizontal">
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body" style="background-image: url(../img/backg.jpg);">
+      	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel1" style="color: white;">欢迎注册</h4>
+        <hr />
+        <div class="form-group form-group-lg">
+      		<label class="control-label col-lg-3" style="color: white;">输入你的编号：</label>
+      		<div class="col-lg-8">
+      			<input type="text"class="form-control"  name="num"/>
+      		</div>	
+      	</div>
+      	<div class="form-group form-group-lg">
+      		<label class="control-label col-lg-3" style="color: white;">输入你的账号：</label>
+      		<div class="col-lg-8">
+      			<input type="text"class="form-control"  name="account1"/>
+      		</div>	
+      	</div>
+      	<div class="form-group form-group-lg">
+			<label class="control-label col-lg-3" style="color: white;">输入你的密码：</label>      		
+        	<div class="col-lg-8">
+        		<input type="password"class="form-control" name="pwd1"/>
+        	</div>
+      	</div>
+      	  <div class="findwpd" style="text-align: middle;margin-left:50px ;"><p  style="color: lightskyblue;">选择你的角色</p></div>
+      	<div class="form-group form-group-lg" style="padding-left: 250px;">  		
+			
+			<input type="radio" name="user_leixing" id="rgteacher" value="教师" name="user_teacher">
+			<label for="teacher" style="color: white;">教师</label>
+			<input type="radio" name="user_leixing" id="rgstudent" value="学生" name="user_student">
+			<label for="student" style="color: white;">学生</label>
+      	</div>
+      	<hr />
+      	<div class="foot">      	
+            <button type="submit" class="btn btn-success btn-lg">注册</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="reset" class="btn btn-default btn-lg" data-dismiss="modal">取消</button>   
+      	</div>
+ 
+     </div>
+     
+    </div> 
+  </div>
+</div>
+</form>
+	</body>
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js" ></script>
+	<script type="text/javascript" src="../js/Particleground.js" ></script>
+	<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js" ></script>
+</html>

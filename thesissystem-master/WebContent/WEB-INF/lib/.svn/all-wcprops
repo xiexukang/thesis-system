@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Essay/!svn/ver/60/JAVA/Essay_Student/WebContent/WEB-INF/lib
+END
+mysql-connector-java-5.1.44.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Essay/!svn/ver/21/JAVA/Essay_Student/WebContent/WEB-INF/lib/mysql-connector-java-5.1.44.jar
+END
+jstl-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Essay/!svn/ver/34/JAVA/Essay_Student/WebContent/WEB-INF/lib/jstl-1.2.jar
+END
+dbutil_2.0_final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Essay/!svn/ver/21/JAVA/Essay_Student/WebContent/WEB-INF/lib/dbutil_2.0_final.jar
+END
+activation-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Essay/!svn/ver/60/JAVA/Essay_Student/WebContent/WEB-INF/lib/activation-1.1.jar
+END
+javax.mail-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/Essay/!svn/ver/60/JAVA/Essay_Student/WebContent/WEB-INF/lib/javax.mail-1.5.6.jar
+END
+commons-email-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Essay/!svn/ver/60/JAVA/Essay_Student/WebContent/WEB-INF/lib/commons-email-1.5.jar
+END
