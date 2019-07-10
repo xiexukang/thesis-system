@@ -45,7 +45,7 @@ public class TeaSelectServlet extends HttpServlet {
 		List<Map<String, String>> list = dao.findall();
 		HttpSession session = request.getSession();
 		session.setAttribute("teas", list);
-		response.sendRedirect("/Essay_Student/Essay/admin/teas.jsp");
+		response.sendRedirect("/thesis-system/Essay/admin/teas.jsp");
 	}
 
 }

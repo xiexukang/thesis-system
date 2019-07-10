@@ -49,7 +49,7 @@ public class T_essay_name_infofind_servlet extends HttpServlet {
 		List<Map<String,String>> list =F.findAll();
 		HttpSession session=request.getSession();
 		session.setAttribute("essay", list);
-		response.sendRedirect("/Essay_Student/Essay/student/view_all.jsp");
+		response.sendRedirect("/thesis-system/Essay/student/view_all.jsp");
 	}
 
 }

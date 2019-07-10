@@ -58,7 +58,7 @@ public class LoginServlet extends HttpServlet {
 						//把从数据库查到的数据存放到session
 						//但是我们知道，按照账号和密码查询最多能查到一条数据
 						session.setAttribute("login_admin",list_admin.get(0));
-						response.sendRedirect("/Essay_Student/Essay/admin/main.html");
+						response.sendRedirect("/thesis-system/Essay/admin/main.html");
 					}
 		            else{
 		            	response.sendRedirect("fail.jsp");
@@ -75,7 +75,7 @@ public class LoginServlet extends HttpServlet {
 				//把从数据库查到的数据存放到session
 				//但是我们知道，按照账号和密码查询最多能查到一条数据
 				session.setAttribute("login_tea",list_tea.get(0));
-				response.sendRedirect("/Essay_Student/Essay/teacher/main.html");
+				response.sendRedirect("/thesis-system/Essay/teacher/main.html");
 			}
             else{
             	response.sendRedirect("fail.jsp");
@@ -92,7 +92,7 @@ public class LoginServlet extends HttpServlet {
 				//把从数据库查到的数据存放到session
 				//但是我们知道，按照账号和密码查询最多能查到一条数据
 				session.setAttribute("login_stu",list_stu.get(0));
-				response.sendRedirect("/Essay_Student/Essay/student/main.html");
+				response.sendRedirect("/thesis-system/Essay/student/main.html");
 			}
             else{
             	response.sendRedirect("fail.jsp");

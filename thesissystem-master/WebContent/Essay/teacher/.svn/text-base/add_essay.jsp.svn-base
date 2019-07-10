@@ -35,7 +35,7 @@
 
 			<h2>Add Essay</h2>
 			<br /><br />
-            <form action="/Essay_Student/Add_EssayServlet" method="post" >
+            <form action="/thesis-system/Add_EssayServlet" method="post" >
 			<div class="addstu">
 
 				<div class="inputleft"></div>

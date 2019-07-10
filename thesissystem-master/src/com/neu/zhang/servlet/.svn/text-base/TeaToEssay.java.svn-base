@@ -48,7 +48,7 @@ public class TeaToEssay extends HttpServlet {
 		String tea_name=tea.get("tea_name");
 		List<Map<String,String>> list = essay.select(tea_name);
 	    session.setAttribute("essay", list);
-	    response.sendRedirect("/Essay_Student/Essay/teacher/essay.jsp");
+	    response.sendRedirect("/thesis-system/Essay/teacher/essay.jsp");
 		
 	}
 

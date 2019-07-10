@@ -48,7 +48,7 @@
 				</tbody>
 			</table>
 		</div>
-		<form action="/Essay_Student/Update_SelectCourseServlet" method="post" >
+		<form action="/thesis-system/Update_SelectCourseServlet" method="post" >
 		<input type="hidden" id="check" name="checked" value="1">
 		<input type="hidden" id="stu_name" name="stu_name">
 		<div class="modal" id="modal_queren">
@@ -68,7 +68,7 @@
 		</div>
 		</form>
 		
-		<form action="/Essay_Student/Update_SelectCourseServlet" method="post" >
+		<form action="/thesis-system/Update_SelectCourseServlet" method="post" >
 		<input type="hidden" id="fcheck" name="checked" value="-1">
 		<input type="hidden" id="fstu_name" name="stu_name">
 		<div class="modal" id="modal_reg">

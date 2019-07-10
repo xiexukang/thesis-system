@@ -36,9 +36,9 @@
 			<ul class="nav nav-tabs">
   				<li><a href="content_center.html"  target="center" style="margin-left: 180px;">Home</a></li>
   				<li><a href="add_essay.jsp"  target="center">AddTopic</a></li>
- 				 <li><a href="/Essay_Student/TeaToEssay" target="center" >Topic</a></li>
- 				 <li><a href="/Essay_Student/TeaToStuRequest" target="center"  >Application</a></li>
- 				 <li><a href="/Essay_Student/TeaToViewAllStudent" target="center" >AllThesis</a></li>
+ 				 <li><a href="/thesis-system/TeaToEssay" target="center" >Topic</a></li>
+ 				 <li><a href="/thesis-system/TeaToStuRequest" target="center"  >Application</a></li>
+ 				 <li><a href="/thesis-system/TeaToViewAllStudent" target="center" >AllThesis</a></li>
 			</ul>
 		</div>
 		

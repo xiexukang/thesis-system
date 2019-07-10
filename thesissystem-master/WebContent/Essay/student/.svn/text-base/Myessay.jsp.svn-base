@@ -78,7 +78,7 @@
 			</table>
 		</div>
 			<!--删除操作的模态框-->
-	<form action="/Essay_Student/EssaySubmit" method="post">
+	<form action="/thesis-system/EssaySubmit" method="post">
 		<input type="hidden" name="essayname" id="essayname">
 		<div class="modal" id="modal_queren">
 			<div class="modal-dialog">

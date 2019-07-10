@@ -45,7 +45,7 @@ public class StuSelectServlet extends HttpServlet {
 		List<Map<String, String>> list = dao.findall();
 		HttpSession session = request.getSession();
 		session.setAttribute("stus", list);
-		response.sendRedirect("/Essay_Student/Essay/admin/stus.jsp");
+		response.sendRedirect("/thesis-system/Essay/admin/stus.jsp");
 		
 	}
 

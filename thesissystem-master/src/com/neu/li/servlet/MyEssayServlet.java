@@ -54,7 +54,7 @@ public class MyEssayServlet extends HttpServlet {
 		session.setAttribute("Mystudent", list1.get(0));
 		session.setAttribute("MyEssay", list);
 		
-		response.sendRedirect("/Essay_Student/Essay/student/Myessay.jsp");
+		response.sendRedirect("/thesis-system/Essay/student/Myessay.jsp");
 	}
 
 }

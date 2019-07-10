@@ -48,7 +48,7 @@ public class TeaToStuRequest extends HttpServlet {
 		String tea_name=tea.get("tea_name");
 		List<Map<String,String>> list = dao.stu_findAll(tea_name);
 		session.setAttribute("stu_request", list);
-		response.sendRedirect("/Essay_Student/Essay/teacher/stu_request.jsp");
+		response.sendRedirect("/thesis-system/Essay/teacher/stu_request.jsp");
 	}
 
 }

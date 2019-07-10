@@ -81,7 +81,7 @@ form button[type=submit] {
 
 
 
-<form action="/Essay_Student/FindPwdServlet">
+<form action="/thesis-system/FindPwdServlet">
     
   <label for=""></label>
   <input type="text" placeholder="email" class="email" required="required" name="user_email">

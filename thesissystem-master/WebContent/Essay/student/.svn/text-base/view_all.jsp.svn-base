@@ -49,7 +49,7 @@
 			</table>
 		</div>
 		<!--删除操作的模态框-->
-	<form action="/Essay_Student/EssaySelectServlet" method="post">
+	<form action="/thesis-system/EssaySelectServlet" method="post">
 		<input type="hidden" name="tea1" id="tea1">
 		<input type="hidden" name="essay" id="essay">
 		<div class="modal" id="modal_queren">

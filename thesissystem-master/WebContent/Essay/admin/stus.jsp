@@ -46,7 +46,7 @@
 				</tbody>
 			</table>
 		</div>
-	<form action="/Essay_Student/StudentDeleteServlet" method="post" class="form-horizontal">
+	<form action="/thesis-system/StudentDeleteServlet" method="post" class="form-horizontal">
 		<input type="hidden" name="user_no" id="user_no">
 		<div class="modal" id="modal_delete">
 			<div class="modal-dialog">
@@ -66,7 +66,7 @@
 		    </div>
 	    </div>
 	  </form>
-	    <form action="/Essay_Student/StudentUpdateServlet" method="post" class="form-horizontal">
+	    <form action="/thesis-system/StudentUpdateServlet" method="post" class="form-horizontal">
 	        <div class="modal" id="modal_update">
 	    	    <div class="modal-dialog">
 	    		    <div class="modal-content">

@@ -20,7 +20,7 @@ public class EmailUtil {
 			email.addTo(to);
 			//设置标题
 			email.setSubject("密码找回");
-			email.setHtmlMsg("<a href='http://localhost:8080/Essay_Student/Essay/admin/setpwd.jsp?id="+id+"'>重新设置密码</a>");
+			email.setHtmlMsg("<a href='http://localhost:8080/thesis-system/Essay/admin/setpwd.jsp?id="+id+"'>重新设置密码</a>");
 			email.send();
 			bool = true;
 		} catch (EmailException e) {

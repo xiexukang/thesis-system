@@ -80,13 +80,13 @@
 		           
 		           
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	            <form action="/Essay_Student/UpdateEssayCheckServlet" method="post">
+	            <form action="/thesis-system/UpdateEssayCheckServlet" method="post">
 		              <input type="hidden" value="-1" name="checked">
 		              <input type="hidden"  name="e_stu_no" id="r_stu_no">
 		              <button type="submit" class="btn btn-sm btn-danger">拒绝通过</button>
 		               </form> 
 		            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		            <form action="/Essay_Student/UpdateEssayCheckServlet" method="post">
+		            <form action="/thesis-system/UpdateEssayCheckServlet" method="post">
 		              <input type="hidden" value="2" name="checked">
 		              <input type="hidden"  name="e_stu_no" id="s_stu_no">
 		              <button type="submit" class="btn btn-sm btn-success">论文通过</button>

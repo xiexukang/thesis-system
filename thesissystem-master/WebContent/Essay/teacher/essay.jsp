@@ -49,7 +49,7 @@
 			</table>
 		</div>
 		<!--//修改操作的模态框-->
-		<form action="/Essay_Student/EssayUpdateServlet" method="post" class="form-horizontal">
+		<form action="/thesis-system/EssayUpdateServlet" method="post" class="form-horizontal">
 			<div class="modal" id="modal_update">
 				<div class="modal-dialog">
 					<div class="modal-content">
@@ -86,7 +86,7 @@
 			</div>
 		</form>
 		<!--删除操作的模态框-->
-		<form action="/Essay_Student/EssayDeleteServlet" method="post" class="form-horizontal">
+		<form action="/thesis-system/EssayDeleteServlet" method="post" class="form-horizontal">
 		<input type="hidden" id="title" name="title">
 			<div class="modal" id="modal_delete">
 				<div class="modal-dialog">

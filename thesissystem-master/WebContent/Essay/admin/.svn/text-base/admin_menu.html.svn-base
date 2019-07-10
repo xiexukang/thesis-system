@@ -54,9 +54,9 @@
 			<ul class="nav nav-tabs">
   				<li><a href="admin_content_center.html" style="margin-left: 180px;" target="center">Home</a></li>
   				<li><a href="stu_add.html" target="center" >AddStudent</a></li>
- 				 <li><a href="/Essay_Student/StuSelectServlet" target="center"  >StudentManage</a></li>
+ 				 <li><a href="/thesis-system/StuSelectServlet" target="center"  >StudentManage</a></li>
  				 <li><a href="Add_tea.html" target="center">AddTeacher</a></li>
- 				 <li><a href="/Essay_Student/TeaSelectServlet" target="center"  >TeacherManage</a></li>
+ 				 <li><a href="/thesis-system/TeaSelectServlet" target="center"  >TeacherManage</a></li>
 			</ul>
 		</div>
 		

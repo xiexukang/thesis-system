@@ -56,13 +56,13 @@ public class FindPwdServlet extends HttpServlet {
 			request.getRequestDispatcher("/password.jsp").forward(request, response);
 			//boolean flag = EmailUtil.sendemail(id,email);
 			/*
-			 * if(flag) { response.sendRedirect("/Essay_Student/success.jsp"); } else{
-			 * response.sendRedirect("/Essay_Student/fail.jsp"); }
+			 * if(flag) { response.sendRedirect("/thesis-system/success.jsp"); } else{
+			 * response.sendRedirect("/thesis-system/fail.jsp"); }
 			 */
 		}
 		else{
 			
-			response.sendRedirect("/Essay_Student/fail.jsp");
+			response.sendRedirect("/thesis-system/fail.jsp");
 		}
 	}
 

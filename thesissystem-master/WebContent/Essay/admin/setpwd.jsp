@@ -83,7 +83,7 @@ form button[type=submit] {
 
 
 
-<form action="/Essay_Student/SetPwdServlet">
+<form action="/thesis-system/SetPwdServlet">
     <input type="hidden" name="mgr_id" value="${param.id }">
   <label for=""></label>
   <input type="password" placeholder="password" class="email" required="required" name="user_pwd">

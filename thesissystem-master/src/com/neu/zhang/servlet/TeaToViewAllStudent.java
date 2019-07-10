@@ -47,6 +47,6 @@ public class TeaToViewAllStudent extends HttpServlet {
 		String tea_name=tea.get("tea_name");
 		List<Map<String,String>> list = dao.view_all_stu(tea_name);
 		session.setAttribute("view_all_stu", list);
-		response.sendRedirect("/Essay_Student/Essay/teacher/view_all_stu.jsp");	}
+		response.sendRedirect("/thesis-system/Essay/teacher/view_all_stu.jsp");	}
 
 }

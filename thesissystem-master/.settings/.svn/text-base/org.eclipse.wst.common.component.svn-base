@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Essay_Student">
+    <wb-module deploy-name="thesis-system">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Essay_Student"/>
-        <property name="java-output-path" value="/Essay_Student/build/classes"/>
+        <property name="context-root" value="thesis-system"/>
+        <property name="java-output-path" value="/thesis-system/build/classes"/>
     </wb-module>
 </project-modules>

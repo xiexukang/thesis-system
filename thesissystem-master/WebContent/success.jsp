@@ -8,7 +8,7 @@
 </head>
 <body>
 <%  
-        response.setHeader("Refresh","3;URL=/Essay_Student/Essay/admin/login_1.html");  
+        response.setHeader("Refresh","3;URL=/thesis-system/Essay/admin/login_1.html");  
      %>  
 </body>
 <script type="text/javascript">

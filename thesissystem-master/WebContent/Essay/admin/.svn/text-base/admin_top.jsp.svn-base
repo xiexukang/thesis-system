@@ -68,7 +68,7 @@
 			</div>
 			
 			<div id="right">
-				<a href="/Essay_Student/Essay/admin/login_1.html" id="logout" target="_top">
+				<a href="/thesis-system/Essay/admin/login_1.html" id="logout" target="_top">
 			  	     Logout
 			    <img src="../img/Logout1.png" style="width: 30px;"/>
 			  </a>

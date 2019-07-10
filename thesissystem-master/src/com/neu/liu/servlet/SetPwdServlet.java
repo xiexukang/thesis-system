@@ -47,7 +47,7 @@ public class SetPwdServlet extends HttpServlet {
 		
 		if(row>0)
 		{
-			response.sendRedirect("/Essay_Student/Essay/admin/login_1.html");
+			response.sendRedirect("/thesis-system/Essay/admin/login_1.html");
 		}
 		else{
 			response.sendRedirect("fail.jsp");

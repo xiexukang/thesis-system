@@ -47,7 +47,7 @@
 		</table>
 	</div>
 		<!-- 删除操作的模态框，对话框 -->
-	<form action="/Essay_Student/TeacherDeleteServlet" method="post" class="form-horizontal">
+	<form action="/thesis-system/TeacherDeleteServlet" method="post" class="form-horizontal">
 		<input type="hidden" name="user_no" id="user_no">
 		<div class="modal" id="modal_delete">
 			<div class="modal-dialog">
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 	</form>
-       <form action="/Essay_Student/TeacherUpdateServlet"method="post"class="form-horizontal">
+       <form action="/thesis-system/TeacherUpdateServlet"method="post"class="form-horizontal">
         <div class="modal"id="modal_update">
         	<div class="modal-dialog">
         		<div class="modal-content">
